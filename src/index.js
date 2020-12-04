@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+
+import 'bootstrap/dist/css/bootstrap.css'
+import Movie from './components/movies';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Movie />
   </React.StrictMode>,
   document.getElementById('root')
 );
